@@ -12,6 +12,11 @@ The simulated processor also implements forwarding techniques to keep from stall
 
 It also implements hazard detection techniques to keep from exceptions caused by control hazards by detecting branch hazards as well as load-use hazards. Implements necessary stalls and nops to ensure the pipeline executes only the correct instructions. 
 
+Here is a depiction of the datapath and control flow of the implemented processor.
+
+![datapath control](https://user-images.githubusercontent.com/66258096/115912886-223f7600-a42d-11eb-830c-58a4daac5edb.jpeg)
+
+
 List of RISCV instructions that the simulated processor handles:
 
 BEQ
