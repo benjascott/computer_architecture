@@ -7,6 +7,7 @@ The program contains all the logic to implement the datapath flow as well as tot
 
 List of RISCV instructions that the simulated processor handles:
 BEQ
+
 ADD/ADDI
 SUB/SUBI
 AND/ANDI
