@@ -6,13 +6,21 @@ The project also contains code that simulates an ALU as well as a register file 
 The program contains all the logic to implement the datapath flow as well as total control flow.
 
 List of RISCV instructions that the simulated processor handles:
+
 BEQ
 
 ADD/ADDI
+
 SUB/SUBI
+
 AND/ANDI
+
 OR/ORI
+
 XOR/XORI
+
 LT
+
 STORE
+
 LOAD
