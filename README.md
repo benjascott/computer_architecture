@@ -10,7 +10,7 @@ The program contains all the logic to implement the datapath flow as well as tot
 
 The simulated processor also implements forwarding techniques to keep from stalls in the pipeline due to data hazards.
 
-It also implements hazard detection techniques to keep from exceptions caused by control hazards by detecting branch hazards as well as load-use hazards. Implements necessary stalls and nops to ensure the pipeline implements only the correct instructions. 
+It also implements hazard detection techniques to keep from exceptions caused by control hazards by detecting branch hazards as well as load-use hazards. Implements necessary stalls and nops to ensure the pipeline executes only the correct instructions. 
 
 List of RISCV instructions that the simulated processor handles:
 
